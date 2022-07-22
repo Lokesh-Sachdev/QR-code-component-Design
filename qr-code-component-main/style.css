@@ -18,12 +18,16 @@ body {
   max-width: 1440px;
   margin: 100px auto;
   padding: 20px;
+  width: 100%;
 }
 
 .main__body {
   background: hsl(220, 15%, 55%);
-  padding: 90px 350px;
+  /* padding: 90px 350px; */
   height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
@@ -31,6 +35,7 @@ body {
   border-radius: 10px;
   height: 400px;
   padding: 10px;
+  width: 252px;
 }
 
 .qr__img {
